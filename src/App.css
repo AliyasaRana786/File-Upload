@@ -1,0 +1,86 @@
+ 
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+}
+
+.file-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.file-item {
+  background-color: #b7b6b6;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.file-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.file-icon i {
+  color: #333;
+}
+
+.file-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.file-item p {
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.App{
+  margin-left: 40%;
+  width: 300px;
+ font-family: sans-serif;
+ padding: 20px;
+ border-radius: 10px;
+ 
+}
+
+.fileinput{
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.fileinput input{
+background-color: rgb(221, 216, 216);
+}
+
+ 
+.editbtn{
+  margin-top: 10px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(217, 217, 217);
+}
+
+@media only screen and (max-width: 400px) {
+  .App{
+margin-left: 15px;
+gap: 10px;
+  }
+}
